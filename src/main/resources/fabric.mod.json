@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "stones_cookbook",
+  "version": "${version}",
+  "name": "Stone's cookbook",
+  "description": "",
+  "authors": ["Walking_stone"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/stones_cookbook/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.dingshibo.mc.stones_cookbook.client.Stones_cookbookClient"
+    ],
+    "main": [
+      "com.dingshibo.mc.stones_cookbook.Stones_cookbook"
+    ]
+  },
+  "mixins": [
+    "stones_cookbook.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
