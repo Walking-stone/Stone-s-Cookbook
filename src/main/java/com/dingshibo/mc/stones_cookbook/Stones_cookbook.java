@@ -18,10 +18,30 @@ import org.slf4j.Logger;
                 .group(ItemGroup.FOOD).food(SCFoodComponents.APPLE_PIE));
         public static final Item SWEETBERRY_PIE = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.SWEETBERRY_PIE));
+        public static final Item CHOCOLATE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.CHOCOLATE));
+        public static final Item PROCESSED_PUFFERFISH = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.PROCESSED_PUFFERFISH));
+
+        public static final Item MAGMA_PIE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.MAGMA_PIE));
+
+        public static final Item HONEY_PIE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.HONEY_PIE));
+        public static final Item COPPER_APPLE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.COPPER_APPLE));
+        public static final Item LAPIS_LAZULI_APPLE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.LAPIS_LAZULI_APPLE));
 
         @Override
         public void onInitialize() {
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "apple_pie"), APPLE_PIE);
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "sweetberry_pie"), SWEETBERRY_PIE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "chocolate"), CHOCOLATE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "processed_pufferfish"), PROCESSED_PUFFERFISH);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "magma_pie"), MAGMA_PIE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "honey_pie"), HONEY_PIE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "copper_apple"), COPPER_APPLE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "lapis_lazuli_apple"), LAPIS_LAZULI_APPLE);
         }
     }

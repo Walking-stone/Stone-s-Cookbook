@@ -1,4 +1,10 @@
 {
   "item.stones_cookbook.apple_pie": "apple pie",
-  "item.stones_cookbook.sweetberry_pie": "sweet berry pie"
+  "item.stones_cookbook.sweetberry_pie": "sweet berry pie",
+  "item.stones_cookbook.chocolate": "chocolate",
+  "item.stones_cookbook.processed_pufferfish": "processed puffer fish",
+  "item.stones_cookbook.magma_pie": "magma pie",
+  "item.stones_cookbook.honey_pie": "honey pie",
+  "item.stones_cookbook.copper_apple": "copper apple",
+  "item.stones_cookbook.lapis_lazuli_apple": "lapis lazuli apple"
 }

@@ -1,4 +1,10 @@
 {
   "item.stones_cookbook.apple_pie": "苹果派",
-  "item.stones_cookbook.sweetberry_pie": "甜浆果派"
+  "item.stones_cookbook.sweetberry_pie": "甜浆果派",
+  "item.stones_cookbook.chocolate": "巧克力",
+  "item.stones_cookbook.processed_pufferfish": "加工河豚",
+  "item.stones_cookbook.magma_pie": "岩浆派",
+  "item.stones_cookbook.honey_pie": "蜂蜜派",
+  "item.stones_cookbook.copper_apple": "铜苹果",
+  "item.stones_cookbook.lapis_lazuli_apple": "青金石苹果"
 }

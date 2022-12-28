@@ -1,11 +1,13 @@
 {
   "schemaVersion": 1,
   "id": "stones_cookbook",
-  "version": "${version}",
+  "version": "beta0.4.0",
   "name": "Stone's cookbook",
-  "description": "",
+  "description": "A distinctive food mod",
   "authors": ["Walking_stone"],
-  "contact": {},
+  "contact": {
+    "email": "3011499719@qq.com"
+  },
   "license": "MIT",
   "icon": "assets/stones_cookbook/icon.png",
   "environment": "*",
