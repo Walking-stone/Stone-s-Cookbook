@@ -20,8 +20,11 @@ public class SCFoodComponents {
             .saturationModifier(0.4f).build();
 
     public static final FoodComponent COPPER_APPLE = new FoodComponent.Builder().hunger(3)
-            .saturationModifier(0.9f).build();
+            .saturationModifier(1.4f).build();
 
-    public static final FoodComponent LAPIS_LAZULI_APPLE = new FoodComponent.Builder().hunger(3)
-            .saturationModifier(0.9f).build();
+    public static final FoodComponent LAPIS_LAZULI_APPLE = new FoodComponent.Builder().hunger(10)
+            .saturationModifier(0.1f).build();
+
+    public static final FoodComponent SEAFOOD_SANDWICH = new FoodComponent.Builder().hunger(6)
+            .saturationModifier(0.3f).build();
 }

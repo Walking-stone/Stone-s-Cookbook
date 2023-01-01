@@ -22,16 +22,16 @@ import org.slf4j.Logger;
                 .group(ItemGroup.FOOD).food(SCFoodComponents.CHOCOLATE));
         public static final Item PROCESSED_PUFFERFISH = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.PROCESSED_PUFFERFISH));
-
         public static final Item MAGMA_PIE = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.MAGMA_PIE));
-
         public static final Item HONEY_PIE = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.HONEY_PIE));
         public static final Item COPPER_APPLE = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.COPPER_APPLE));
         public static final Item LAPIS_LAZULI_APPLE = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.LAPIS_LAZULI_APPLE));
+        public static final Item SEAFOOD_SANDWICH = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.SEAFOOD_SANDWICH));
 
         @Override
         public void onInitialize() {
@@ -43,5 +43,6 @@ import org.slf4j.Logger;
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "honey_pie"), HONEY_PIE);
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "copper_apple"), COPPER_APPLE);
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "lapis_lazuli_apple"), LAPIS_LAZULI_APPLE);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "seafood_sandwich"), SEAFOOD_SANDWICH);
         }
     }

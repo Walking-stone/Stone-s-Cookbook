@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
+    "X": {
+      "item": "minecraft:cod",
+    "+": {
+        "item": "minecraft:seegrass"
+    }
+  },
+  "pattern": [
+    "# ",
+    "X+",
+    "# "
+  ],
+  "result": {
+    "item": "stones_cookbook:seafood_sandwich"
+  }
+}
