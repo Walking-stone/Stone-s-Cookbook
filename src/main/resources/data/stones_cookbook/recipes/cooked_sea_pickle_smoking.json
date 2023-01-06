@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:sea_pickle"
+  },
+  "result": "stones_cookbook:cooked_sea_pickle"
+}

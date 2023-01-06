@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 120,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:pufferfish"
+  },
+  "result": "stones_cookbook:processed_pufferfish"
+}

@@ -27,4 +27,7 @@ public class SCFoodComponents {
 
     public static final FoodComponent SEAFOOD_SANDWICH = new FoodComponent.Builder().hunger(6)
             .saturationModifier(0.3f).build();
+
+    public static final FoodComponent COOKED_SEA_PICKLE = new FoodComponent.Builder().hunger(6)
+            .saturationModifier(0.4f).build();
 }

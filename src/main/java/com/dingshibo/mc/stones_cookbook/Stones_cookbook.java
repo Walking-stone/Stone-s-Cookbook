@@ -2,6 +2,7 @@ package com.dingshibo.mc.stones_cookbook;
 
 
 import com.dingshibo.mc.stones_cookbook.item.SCFoodComponents;
+import it.unimi.dsi.fastutil.chars.CharOpenCustomHashSet;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -32,6 +33,8 @@ import org.slf4j.Logger;
                 .group(ItemGroup.FOOD).food(SCFoodComponents.LAPIS_LAZULI_APPLE));
         public static final Item SEAFOOD_SANDWICH = new Item(new Item.Settings()
                 .group(ItemGroup.FOOD).food(SCFoodComponents.SEAFOOD_SANDWICH));
+        public static final Item COOKED_SEA_PICKLE = new Item(new Item.Settings()
+                .group(ItemGroup.FOOD).food(SCFoodComponents.COOKED_SEA_PICKLE));
 
         @Override
         public void onInitialize() {
@@ -44,5 +47,6 @@ import org.slf4j.Logger;
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "copper_apple"), COPPER_APPLE);
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "lapis_lazuli_apple"), LAPIS_LAZULI_APPLE);
             Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "seafood_sandwich"), SEAFOOD_SANDWICH);
+            Registry.register(Registry.ITEM, new Identifier("stones_cookbook", "cooked_sea_pickle"), COOKED_SEA_PICKLE);
         }
     }

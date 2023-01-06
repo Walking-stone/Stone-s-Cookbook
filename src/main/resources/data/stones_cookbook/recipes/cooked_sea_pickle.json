@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "minecraft:sea_pickle"
+  },
+  "result": "stones_cookbook:cooked_sea_pickle"
+}
