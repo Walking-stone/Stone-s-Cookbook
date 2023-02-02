@@ -8,5 +8,12 @@
   "item.stones_cookbook.copper_apple": "copper apple",
   "item.stones_cookbook.lapis_lazuli_apple": "lapis lazuli apple",
   "item.stones_cookbook.seafood_sandwich": "seafood sandwich",
-  "item.stones_cookbook.cooked_sea_pickle": "cooked sea pickle"
+  "item.stones_cookbook.cooked_sea_pickle": "cooked sea pickle",
+  "item.stones_cookbook.cooked_sea_grass": "cooked sea grass",
+  "item.stones_cookbook.dough": "dough",
+  "item.stones_cookbook.uncooked_pizza": "uncooked_pizza",
+  "item.stones_cookbook.pizza": "pizza",
+  "item.stones_cookbook.candy": "candy",
+  "item.stones_cookbook.raw_meat_ball": "raw meat ball",
+  "item.stones_cookbook.meat_ball": "meat ball"
 }

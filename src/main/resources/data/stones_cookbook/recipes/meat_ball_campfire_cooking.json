@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "stones_cookbook:raw_meat_ball"
+  },
+  "result": "stones_cookbook:meat_ball"
+}

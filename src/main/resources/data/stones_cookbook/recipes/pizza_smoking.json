@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "stones_cookbook:uncooked_pizza"
+  },
+  "result": "stones_cookbook:pizza"
+}

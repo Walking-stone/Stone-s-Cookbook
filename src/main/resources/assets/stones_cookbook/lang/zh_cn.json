@@ -2,11 +2,18 @@
   "item.stones_cookbook.apple_pie": "苹果派",
   "item.stones_cookbook.sweetberry_pie": "甜浆果派",
   "item.stones_cookbook.chocolate": "巧克力",
-  "item.stones_cookbook.processed_pufferfish": "加工河豚",
+  "item.stones_cookbook.processed_pufferfish": "加工过的河豚",
   "item.stones_cookbook.magma_pie": "岩浆派",
   "item.stones_cookbook.honey_pie": "蜂蜜派",
   "item.stones_cookbook.copper_apple": "铜苹果",
   "item.stones_cookbook.lapis_lazuli_apple": "青金石苹果",
   "item.stones_cookbook.seafood_sandwich": "海鲜三明治",
-  "item.stones_cookbook.cooked_sea_pickle": "煮海泡菜"
+  "item.stones_cookbook.cooked_sea_pickle": "煮熟的海泡菜",
+  "item.stones_cookbook.cooked_sea_grass": "煮熟的海草",
+  "item.stones_cookbook.dough": "面团",
+  "item.stones_cookbook.uncooked_pizza": "未烹饪的比萨",
+  "item.stones_cookbook.pizza": "比萨",
+  "item.stones_cookbook.candy": "糖果",
+  "item.stones_cookbook.raw_meat_ball": "生肉丸",
+  "item.stones_cookbook.meat_ball": "肉丸"
 }

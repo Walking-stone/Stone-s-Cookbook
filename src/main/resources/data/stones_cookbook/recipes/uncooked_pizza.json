@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "stones_cookbook:dough"
+    },
+    "B": {
+      "item": "minecraft:raw_beef",
+      "C": {
+        "item": "minecraft:seegrass"
+      }
+    },
+    "pattern": [
+      " C ",
+      " B ",
+      "AAA"
+    ],
+    "result": {
+      "item": "stones_cookbook:uncooked_pizza"
+    }
+  },
